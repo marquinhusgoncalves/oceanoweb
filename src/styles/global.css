@@ -1,32 +1,25 @@
-/* Minimal Reset */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
+html, body, #___gatsby {
   height: 100%;
 }
+
 body {
-  min-height: 100%;
+  margin: 0px;
+}
+
+div[tabindex] {
+  height: 100%;
 }
 
 .container {
-  display: flex;;
-  align-items: center;
+  height: 100%;
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 h1 {
-  text-align: center;
   font-size: 0;
   color: transparent;
-}
-
-.logo{
-  width: 30%;
-  height: auto;
 }
 
 .animated {
